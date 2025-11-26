@@ -1,0 +1,11 @@
+{
+  "customerId": "customer-123",
+  "items": [
+    {
+      "productId": "",
+      "productName": "Gaming Laptop",
+      "price": 1299.99,
+      "quantity": 1
+    }
+  ]
+}

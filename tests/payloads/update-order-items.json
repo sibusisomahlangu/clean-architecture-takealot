@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "productId": "laptop-002",
+      "productName": "Updated Gaming Laptop",
+      "price": 1499.99,
+      "quantity": 1
+    },
+    {
+      "productId": "keyboard-001",
+      "productName": "Mechanical Keyboard",
+      "price": 129.99,
+      "quantity": 1
+    }
+  ]
+}

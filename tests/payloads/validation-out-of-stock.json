@@ -1,0 +1,11 @@
+{
+  "customerId": "customer-123",
+  "items": [
+    {
+      "productId": "out-of-stock-product",
+      "productName": "Unavailable Item",
+      "price": 99.99,
+      "quantity": 1
+    }
+  ]
+}

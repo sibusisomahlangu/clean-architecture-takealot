@@ -1,0 +1,11 @@
+{
+  "customerId": "customer-123",
+  "items": [
+    {
+      "productId": "expensive-item",
+      "productName": "Very Expensive Item",
+      "price": 15000.00,
+      "quantity": 1
+    }
+  ]
+}

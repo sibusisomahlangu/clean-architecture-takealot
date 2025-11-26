@@ -1,0 +1,10 @@
+{
+  "items": [
+    {
+      "productId": "laptop-003",
+      "productName": "Premium Gaming Laptop",
+      "price": 1999.99,
+      "quantity": 1
+    }
+  ]
+}

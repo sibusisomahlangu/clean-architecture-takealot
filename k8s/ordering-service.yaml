@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ordering-service
+  namespace: ecommerce-microservices
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ordering-service
+  template:
+    metadata:
+      labels:
+        app: ordering-service
+    spec:
+      containers:
+      - name: ordering-service
+        image: ordering-service:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 80
+        env:
+        - name: ASPNETCORE_ENVIRONMENT
+          value: "Production"
+        - name: RABBITMQ_HOST
+          value: "rabbitmq-service"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ordering-service
+  namespace: ecommerce-microservices
+spec:
+  selector:
+    app: ordering-service
+  ports:
+  - port: 80
+    targetPort: 8080
+  type: LoadBalancer

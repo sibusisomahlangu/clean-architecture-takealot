@@ -1,0 +1,11 @@
+{
+  "customerId": "customer-789",
+  "items": [
+    {
+      "productId": "monitor-001",
+      "productName": "4K Monitor",
+      "price": 599.99,
+      "quantity": 1
+    }
+  ]
+}

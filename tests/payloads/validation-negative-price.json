@@ -1,0 +1,11 @@
+{
+  "customerId": "customer-123",
+  "items": [
+    {
+      "productId": "invalid-item",
+      "productName": "Invalid Item",
+      "price": -100.00,
+      "quantity": 1
+    }
+  ]
+}
