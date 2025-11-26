@@ -110,7 +110,7 @@ Shipping Arranged → Order Completed → Customer Notified
 
 ```bash
 # 1. Clone the repository
-git clone <repository-url>
+git clone https://github.com/sibusisomahlangu/clean-architecture-takealot
 cd clean-architecture-takealot
 
 # 2. Deploy all services with Docker Compose
